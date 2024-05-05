@@ -1,0 +1,27 @@
+docker pull openjdk
+docker run --name JAVA -it -d openjdk
+docker exec -it JAVA jshell
+dokcer rm fullid
+
+
+
+
+username: prathu135
+password : Pratham@135
+terminal
+docker -v
+docker images
+docker ps => which container is running
+
+docker hub website
+search java
+
+docker pull openjdk 
+docker run --name JAVA -it -d openjdk
+docker ps
+docker exec -it JAVA COMMAND
+system.out.println("hello");
+/exit
+docker stop container_id
+docker container rm container_id
+docker image prune //images are removed
