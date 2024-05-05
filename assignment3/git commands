@@ -1,0 +1,38 @@
+
+#git
+version control system tracking changes in computer files
+work co-ordination
+progress tracking
+
+#github
+hosting service
+web-based graphical interface
+work together
+
+
+git config
+git init
+git add
+git diff
+git commit
+git reset
+git status
+git merge
+git push
+git pull
+
+
+
+process:
+git init
+git add .
+git status
+git commit -m "beta gamma";
+git remote add origin "link"
+git push -u origin master
+
+
+new commit
+git add
+git commit -a -m  "message"
+git push -u  origin master
