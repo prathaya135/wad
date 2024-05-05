@@ -1,0 +1,9 @@
+install node js
+
+
+The Angular CLI is a command-line interface tool that you use to initialize, develop, scaffold, and maintain Angular applications directly from a command shell.
+
+ng new my-app
+cd my-app
+ng serve
+ng generate component mycomponent/navbar

@@ -1,0 +1,27 @@
+<!-- <form> -->
+    <div class="container my-3" style="border: 3px solid black; padding-bottom: 10px; padding-top: 10px;">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="email">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="Name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="Name" aria-describedby="emailHelp" [(ngModel)]="name">
+        </div>
+        <div class="mb-3">
+          <label for="number" class="form-label">Number</label>
+          <input type="number" class="form-control" id="number" aria-describedby="emailHelp" [(ngModel)]="Number">
+        </div>
+        <div class="mb-3">
+          <label for="address" class="form-label">Address</label>
+          <textarea id="address" class="form-control" [(ngModel)]="address"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" [(ngModel)]="password">
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="addItem()">Submit</button>
+      </div>
+      <!-- </form> -->
+      

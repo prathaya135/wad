@@ -1,0 +1,14 @@
+input{
+    height: 30px;
+    width: 150px;
+    padding-left: 20px;
+    margin-left: 50px;
+}
+
+h1{
+    margin-left: 50px;
+}
+
+button{
+    margin-left: 100px;
+}
